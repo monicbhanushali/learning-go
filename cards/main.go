@@ -9,6 +9,12 @@ func main() {
 	// "Ace of Spades!" actual value
 	var card string = "Explicity typing variable"
 	card2 := "Ace of Spades, the type of variable is being inferred from the value"
+	card3 := getValueOfCard()
 
-	fmt.Println(card, card2)
+	fmt.Println(card, card2, card3)
+}
+
+// this function returns a value of type string
+func getValueOfCard() string {
+	return "Red Diamond No 2"
 }
