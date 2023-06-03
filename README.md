@@ -6,7 +6,7 @@
  - `func main()` - creates an executable code while anything apart from that creates packages which can be imported into other code, just like npm packages
  - go is a static type language just like java, c++
 
-### variable naming/convention
+## variable naming/convention
 
 ```go
 // Variable declaration convention - with explicity typing
@@ -18,5 +18,16 @@ name := "Hey I am variable whose type is inferred"
 
 // Variable value re-assignment
 name = "My name changed.... :/"
+
+```
+
+## Built in data types
+
+### Basic types
+
+https://golangbyexample.com/all-data-types-in-golang-with-examples/#Basic_Types
+
+```
+
 
 ```
