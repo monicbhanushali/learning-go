@@ -16,6 +16,7 @@ func main() {
 	fmt.Println(raju)
 
 	var shyam person
+	shyam.firstname = "Shyam"
 	fmt.Println(shyam)
 	fmt.Printf("%+v", shyam)
 }
